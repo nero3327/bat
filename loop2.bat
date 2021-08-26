@@ -25,7 +25,7 @@ goto restart
 
 :juj
 rem pause
-set /p SE=请选择aGain或者eXit
+set /p SE=请选择(a)gain或者e(x)it
 
 if %SE%==a goto begin
 if %SE%==e goto exit
